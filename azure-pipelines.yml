@@ -3,6 +3,9 @@ trigger:
     include:
       - main
 
+pool:
+  name: kkagent
+
 stages:
   - stage: init
     displayName: init_stage
