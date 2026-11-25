@@ -4,12 +4,7 @@ trigger:
       - main
 
 pool:
-  name: kkagent
-
-
-
-
-    
+  name: kkagent    
 
 stages:
   - stage: init
